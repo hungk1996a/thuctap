@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('publishers').insert([
-        {name:'hfsdf', address: 'ha nio', phone: '112312341'},
+        {name:'hfsdf 123', address: 'ha nio', phone: '112312341'},
         {name:'hfsdf1', address: 'ha nio', phone: '212312341'},
         {name:'hfsdf2', address: 'ha nio', phone: '312312341'},
         {name:'hfsdf3', address: 'ha nio', phone: '412312341'},
